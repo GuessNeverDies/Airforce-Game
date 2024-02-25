@@ -1,12 +1,3 @@
-from pip._internal.vcs import git
-
-echo "# Airforce-Game" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/GuessNeverDies/Airforce-Game.git
-git push -u origin main
 #Step4, fire bullets
 
 import pygame
